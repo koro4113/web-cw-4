@@ -1,7 +1,10 @@
 html, body{
     margin: 0;
     height: 100%;
+    width: 100%
+    ;
 }
+
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
@@ -14,25 +17,56 @@ html, body{
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
+ 
+
     /* pxالعرض هنا يجب ان يكون 120 */
+width: 120px;
+    background-color: #2b2d42;
+height: 100%;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+
+    height: 20%;
+    background-color: #774936;
+    
+
 }
 
 .main{
 
+
+background-color: #0353a4;
+height: 80%
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
-}
+
+        text-decoration: none;    
+
+
+        
+    }
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
+
+.b{
+background-color: brown;
+
+
+
+}
+
+.b:hover{
+
+background-color:white;
+padding: 12px;
+}
 
 
 
@@ -44,5 +78,23 @@ h1{
 h2{
     margin: 0;
     margin-left: 5px;
+}
+
+.flex{
+
+display: flex;
+height: 100%;
+width: 100%;
+}
+.fg{
+
+width: 100%;
+
+height: 100%;
+}
+p{
+
+text-align: center;
+
 }
 
